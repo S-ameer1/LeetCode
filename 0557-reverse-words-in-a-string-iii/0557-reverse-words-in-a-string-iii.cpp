@@ -3,24 +3,22 @@ public:
     string reverseWords(string s) {
         int n=s.size();
         string ans="";
-        stack<char>st;
+        string temp;
         for(int i=0;i<n;i++){
             if(s[i]!=' '){
-                st.push(s[i]);
+                temp+=s[i];
             }
             else{
-                while(st.size()!=0){
-                    ans+=st.top();
-                    st.pop();
-                }
+                reverse(temp.begin(),temp.end());
+                ans+=temp;
                 ans+=" ";
-            }
-        }
-          while(st.size()!=0){
-                    ans+=st.top();
-                    st.pop();
+                temp="";
                 }
+            }
+        reverse(temp.begin(),temp.end());
+                ans+=temp;
                 return ans;
         
+          
     }
 };
