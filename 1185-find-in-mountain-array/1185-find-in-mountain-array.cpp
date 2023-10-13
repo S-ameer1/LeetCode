@@ -1,54 +1,56 @@
-/**
- * // This is the MountainArray's API interface.
- * // You should not implement it, or speculate about its implementation
- * class MountainArray {
- *   public:
- *     int get(int index);
- *     int length();
- * };
- */
-
 class Solution {
 public:
-    int findInMountainArray(int target, MountainArray &mountainArr) {
-        int ans=-1;
-        int start=0, end=mountainArr.length()-1, mid=start+(end-start)/2;
-        while(start<end){
-            if(mountainArr.get(mid+1) < mountainArr.get(mid)){
-                end = mid;
-            }else{
-                start = mid+1;
+    int getpeak(MountainArray &m, int n, int s, int e) {
+        while (s < e) {
+            int mid = s + (e - s) / 2;
+            if (m.get(mid) < m.get(mid + 1)) {
+                s = mid + 1;
+            } else {
+                e = mid;
             }
-            mid = start + (end - start)/2;
         }
-        int peak=start;
-        start=0, end=peak, mid = start + (end-start)/2;
-        while(start<=end){
-            if(mountainArr.get(mid) == target){
-                ans = mid;
-                end=mid-1;
-            }else if(mountainArr.get(mid) > target){
-                end = mid-1;
-            }else{
-                start = mid +1;
+        return s;
+    }
+
+    int findInMountainArray(int target, MountainArray &m) {
+        int n = m.length();
+        int s = 0;
+        int e = n - 1;
+        int mid;
+
+        // Find the peak
+        int peakIndex = getpeak(m, n, s, e);
+
+        // Binary search in the left part
+        s = 0;
+        e = peakIndex;
+        while (s <= e) {
+            mid = s + (e - s) / 2;
+            int midValue = m.get(mid);
+            if (midValue == target) {
+                return mid;
+            } else if (midValue < target) {
+                s = mid + 1;
+            } else {
+                e = mid - 1;
             }
-            mid = start + (end - start)/2;
         }
-        if(ans != -1){
-            return ans;
-        }
-        start=peak, end=mountainArr.length()-1, mid = start + (end-start)/2;
-        while(start<=end){
-            if(mountainArr.get(mid) == target){
-                ans = mid;
-                end=mid-1;
-            }else if(mountainArr.get(mid) > target){
-                start = mid +1;
-            }else{
-                end = mid-1;
+
+        // Binary search in the right part
+        s = peakIndex;
+        e = n - 1;
+        while (s <= e) {
+            mid = s + (e - s) / 2;
+            int midValue = m.get(mid);
+            if (midValue == target) {
+                return mid;
+            } else if (midValue > target) {
+                s = mid + 1;
+            } else {
+                e = mid - 1;
             }
-            mid = start + (end - start)/2;
         }
-        return ans;
+
+        return -1;
     }
 };
