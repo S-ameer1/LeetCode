@@ -1,19 +1,17 @@
 class Solution {
 public:
     vector<vector<int>>ans;
-    unordered_map<string,int>map;
+    map<vector<int>,int>map;
     void solve(vector<int>nums,int index){
       if(index>=nums.size()){
-        string s="";
-        for(int i=0;i<nums.size();i++){
-          s+=nums[i];
-        }
-        if(map[s]==0){
+        if(map[nums]==0){
         ans.push_back(nums);
-        map[s]=1;
+        map[nums]=1;
         }
         return ;
+
       }
+    
       for(int i=index;i<nums.size();i++){
         swap(nums[index],nums[i]);
         solve(nums,index+1);
@@ -21,7 +19,8 @@ public:
 
 
       }
-    }
+}
+    
     vector<vector<int>> permuteUnique(vector<int>& nums) {
       int index=0;
       solve(nums,index);
