@@ -10,9 +10,7 @@ public:
         return help(n/4);
     }
     bool isPowerOfFour(int n) {
-        if(n%4!=0 && n!=1){
-            return 0;
-        }
+      
         return help(n);
         
     }
