@@ -1,13 +1,17 @@
 class Solution {
 public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
-        set<int>s;
-        for(int i=0;i<nums1.size();i++){
-            s.insert(nums1[i]);
-        }
-        for(int i=0;i<nums2.size();i++){
-            if(s.find(nums2[i])!=s.end()){
-                return nums2[i];
+        int l=0;
+        int r=0;
+        while(l<nums1.size() && r<nums2.size()){
+            if(nums1[l]==nums2[r]){
+                return nums1[l];
+            }
+            else if(nums1[l]>nums2[r]){
+                r++;
+            }
+            else{
+                l++;
             }
         }
         return -1;
