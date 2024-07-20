@@ -49,8 +49,13 @@
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 ## Matrix
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+## String
+|  |
+| ------- |
+| [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 <!---LeetCode Topics End-->
