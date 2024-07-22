@@ -45,6 +45,7 @@
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 ## Greedy
 |  |
 | ------- |
@@ -57,5 +58,14 @@
 ## String
 |  |
 | ------- |
+| [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+## Hash Table
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
+## Sorting
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
