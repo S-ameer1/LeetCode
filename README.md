@@ -45,6 +45,7 @@
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/S-ameer1/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 ## Greedy
 |  |
@@ -63,9 +64,11 @@
 ## Hash Table
 |  |
 | ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/S-ameer1/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 ## Sorting
 |  |
 | ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/S-ameer1/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
