@@ -53,6 +53,7 @@
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/S-ameer1/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Matrix
 |  |
 | ------- |
@@ -62,6 +63,7 @@
 | ------- |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/S-ameer1/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Hash Table
 |  |
 | ------- |
@@ -97,4 +99,5 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/S-ameer1/LeetCode/tree/master/0948-sort-an-array) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/S-ameer1/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 <!---LeetCode Topics End-->
