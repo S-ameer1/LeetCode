@@ -48,6 +48,7 @@
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/S-ameer1/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/S-ameer1/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/S-ameer1/LeetCode/tree/master/2727-number-of-senior-citizens) |
 ## Greedy
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 | ------- |
 | [0383-ransom-note](https://github.com/S-ameer1/LeetCode/tree/master/0383-ransom-note) |
 | [2502-sort-the-people](https://github.com/S-ameer1/LeetCode/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/S-ameer1/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/S-ameer1/LeetCode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/S-ameer1/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Hash Table
